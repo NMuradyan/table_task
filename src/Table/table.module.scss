@@ -1,0 +1,88 @@
+.countryTable {
+  padding: 12px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.search input {
+  width: 180px;
+  height: 40px;
+  margin-right: 50px;
+  padding: 3px;
+  border-radius: 10px;
+  border-style: solid;
+  text-align: center;
+}
+
+.search input:focus-visible {
+  outline-color: darkgrey;
+}
+
+.search select {
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border-width: 2px;
+  text-align: center;
+}
+
+.sort select {
+  width: 140px;
+  height: 50px;
+  margin-right: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border-width: 2px;
+  text-align: center;
+}
+
+select:focus-visible {
+  outline-color: darkgrey;
+}
+
+.tableHeader {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
+  background-color: #f2f2f2;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.column {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  height: 50px;
+}
+
+.column img {
+  width: 100px;
+  height: 55px;
+}
+
+.column button {
+  background-color: inherit;
+  border: none;
+}
+
+.tableRow {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
+  background-color: #fff;
+  border-bottom: 1px solid grey;
+}
+
+button {
+  fill: grey;
+}
+
+button:hover {
+  fill: black;
+}
