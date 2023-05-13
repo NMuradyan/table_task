@@ -2,7 +2,6 @@ import React from 'react';
 import Table from "./Table/Table";
 
 function App() {
-
   return (
     <>
       <Table />
